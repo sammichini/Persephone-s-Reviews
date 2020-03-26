@@ -1,0 +1,100 @@
+
+
+
+@font-face {
+    font-family: Yu Gothic Medium;
+    src: url(yugothib.ttf) format('truetype');
+}
+
+/* Set BG image, fixed width */
+body {
+    max-width: 90%; 
+    background-image: url("images/Lab5BGGraphic.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: rgb(73, 77, 83);
+}
+
+hr {
+    color: rgb(174, 127, 235)
+}
+
+section {
+    font-family: Yu Gothic Medium;
+    color: rgb(159, 145, 177);
+}
+
+article>a, article>p, figure, ol, ul, blockquote {
+    color: rgb(159, 145, 177);
+    
+}
+
+article>a, article>p, blockquote
+{
+    max-width: 500px;
+
+}
+
+section>p {
+    color: slategrey;
+    max-width: 500px;
+}
+
+header h2 { 
+    color: lightslategrey;
+}
+
+/* index for header BG image  */
+header img {
+    z-index: -1;
+}
+
+h3 { 
+    color: steelblue;
+}
+
+/*  float/endfloat, figure padding, border, margin, rounded corners, relative positioning  */
+figure>img, figure>figcaption {
+    float: right;
+    clear: right;
+    padding: 20px;
+    margin: 5px;
+    position: relative;
+    right: 500px;
+    top: 200px;
+    border-style:dashed;
+    border-radius: 25px;
+}
+
+#nav li {
+    float: left;
+    list-style-type: none;
+    background-color: rgb(167, 173, 179);
+    padding: 8px; 
+    color: rgb(248, 180, 180);
+}
+
+/*#album {
+
+    padding: 150px;
+    left: 150px;
+    position: relative;
+} 
+
+/*#nav #links {   
+ 
+    border-style: round;
+    border-width: 4px;
+    padding: 8px; 
+    
+}*/
+
+#QuoteBlock {
+    color: rgb(100, 78, 126);
+}
+
+/*iframe {
+
+    width: 200px;
+    height: 200px;
+}*/
